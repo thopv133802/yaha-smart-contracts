@@ -5,8 +5,8 @@ import "../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 contract YahaTokenRepository is ERC20, Ownable{
     using SafeMath for uint256;
-    string public name = "Yaha";
-    string public symbol = "YH";
+    string public name = "YAHA";
+    string public symbol = "YAHA";
     uint8 public decimals = 0;
     uint256 private _initialSupply = 5000000000;
     constructor() public {
